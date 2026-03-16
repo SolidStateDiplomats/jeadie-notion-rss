@@ -3,7 +3,7 @@ name: Get Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * *" # 12am AEST
+    - cron: '48 5,11,17,23 * * *'
 
 jobs:
   get-rss-feed:
